@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Miquel Miró Nicolau"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Miquel Miró Nicolau"
+description              : "Personal page of Miquel Miró Nicolau."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Miquel Miró Nicolau"
   avatar           : "/assets/img/avatar.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Phd. student on the Balearic Islands University. Main foucs of research computer vision and artificial intelligence"
   location         : "Mallorca"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:miquelca32@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/miquelmn"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
