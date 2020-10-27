@@ -2,11 +2,6 @@
 main:
   - title: "Portfolio"
     url: /portfolio/
- - title: "Datasets"
-    url: /parent-2-page-url/
-    children:
-      - title: "Miace Dataset"
-        url: /child-1-page-url/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
