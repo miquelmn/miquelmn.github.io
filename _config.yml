@@ -268,7 +268,7 @@ compress_html:
 
 # Collections
 collections:
-  docs:
+  datasets:
     output: true
     permalink: /:collection/:path/
   recipes:
@@ -302,10 +302,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+  # _datasets
   - scope:
       path: ""
-      type: docs
+      type: datasets
     values:
       layout: single
       read_time: false
@@ -313,7 +313,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "datasets"
   # _recipes
   - scope:
       path: ""
