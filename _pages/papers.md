@@ -1,8 +1,8 @@
 ---
-title: Datasets
+title: Papers
 layout: collection
-permalink: /datasets/
-collection: datasets
+permalink: /papers/
+collection: papers
 entries_layout: grid
 classes: wide
 ---
