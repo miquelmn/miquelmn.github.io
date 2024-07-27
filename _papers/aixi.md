@@ -1,6 +1,6 @@
 ---
 title: "A novel approach to generate datasets with XAI ground truth to evaluate image models"
-excerpt: "New method for the segmentation of cell clusters."
+excerpt: "New method for the generation of SABs, datasets with XAI ground truth."
 header:
   image: /assets/img/03_aixi/0.png
   teaser: /assets/img/03_aixi/0.png
