@@ -1,5 +1,5 @@
 ---
-title: "Segmenting overlapped cell clusters in biomedical images by concave point detection"
+title: "Improving concave point detection to better segment overlapped objects in images"
 excerpt: "New method for the segmentation of cell clusters."
 header:
   image: /assets/img/01_segmenting/miace.jpg
