@@ -1,6 +1,6 @@
 ---
 title: "Improving concave point detection to better segment overlapped objects in images"
-excerpt: "New method for the segmentation of cell clusters."
+excerpt: "New method for the segmentation of cell clusters"
 header:
   image: /assets/img/01_segmenting/miace.jpg
   teaser: /assets/img/01_segmenting/miace.jpg
