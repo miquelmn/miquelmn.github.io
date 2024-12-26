@@ -230,8 +230,9 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto;
   -ms-interpolation-mode: bicubic;
+  object-fit: cover;
+  height: 50vh;
 }
 
 .page__hero-caption {
