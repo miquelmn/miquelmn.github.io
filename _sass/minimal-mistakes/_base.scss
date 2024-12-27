@@ -133,14 +133,16 @@ a {
     @extend %tab-focus;
   }
 
-  &:visited {
+/*  &:visited {
     color: $link-color-visited;
-  }
+  }*/
 
   &:hover {
     color: $link-color-hover;
     outline: 0;
   }
+
+  text-decoration: none !important;
 }
 
 /* buttons */
