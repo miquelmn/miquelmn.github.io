@@ -2,11 +2,11 @@
 title: "A comprehensive study on fidelity metrics for XAI"
 excerpt: "A novel meta-evaluation process to verify fidelity measures."
 header:
-  image: /assets/img/05_fidelity/1.jpg
-  teaser: /assets/img/05_fidelity/1.jpg
+  image: /assets/img/05_fidelity/01.jpg
+  teaser: /assets/img/05_fidelity/01.jpg
 sidebar:
   - title: "Responsibilities"
-    image: /assets/img/05_fidelity/1.jpg
+    image: /assets/img/05_fidelity/01.jpg
     image_alt: "logo"
     text: "Software, Visualization, Formal analysis , Writing - Original Draft"
 ---
