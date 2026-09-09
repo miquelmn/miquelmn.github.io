@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-{% raw %}<div class="teaching-wrap">
+<div class="teaching-wrap">
 
 {% assign courses = site.teaching | group_by: "course" %}
 {% for course in courses %}
@@ -36,4 +36,4 @@ author_profile: true
   </div>
 {% endfor %}
 
-</div>{% endraw %}
+</div>
