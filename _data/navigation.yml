@@ -6,6 +6,8 @@ main:
   #  url: /datasets/
   - title: "Posts"
     url: /posts/
+  - title: "Teaching"
+    url: /teaching/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

@@ -7,3 +7,116 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.teaching-wrap {
+  margin-top: 1em;
+}
+
+.teaching-course-title {
+  margin-bottom: 0.1em;
+  font-size: 1.5em;
+}
+
+.teaching-course-sub {
+  color: #767676;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.2em;
+}
+
+.teaching-course-block {
+  margin-bottom: 3em;
+}
+
+.teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25em;
+}
+
+.teaching-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.6em;
+  overflow: hidden;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  color: inherit;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    text-decoration: none;
+
+    .teaching-card-body h3 {
+      color: #2b7de9;
+    }
+  }
+}
+
+.teaching-card-thumb {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, #f4f6f8, #e9edf1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.teaching-card-icon {
+  font-size: 2.8em;
+  color: #c94b4b;
+  opacity: 0.85;
+}
+
+.teaching-card-badge {
+  position: absolute;
+  top: 0.6em;
+  right: 0.6em;
+  background: rgba(20, 20, 20, 0.75);
+  color: #fff;
+  font-size: 0.7em;
+  padding: 0.25em 0.55em;
+  border-radius: 0.4em;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.teaching-card-body {
+  padding: 0.9em 1em 1.1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: 1.02em;
+    margin: 0 0 0.25em;
+    line-height: 1.3;
+    transition: color 0.15s ease;
+  }
+
+  time {
+    font-size: 0.78em;
+    color: #999;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 0.85em;
+    color: #555;
+    margin: 0;
+    line-height: 1.45;
+  }
+}

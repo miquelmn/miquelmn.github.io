@@ -318,6 +318,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
 
 # Defaults
@@ -386,3 +389,9 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
