@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign courses = site.teaching | group_by: "course" %}
 {% for course in courses %}
-  {% assign items = course.items | sort: "date" | reverse %}
+  {% assign items = course.items | sort: "date" %}
   <div class="teaching-course-block">
   <h2 class="teaching-course-title">
     {% if items.first.course_url %}
