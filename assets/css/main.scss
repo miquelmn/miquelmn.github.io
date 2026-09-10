@@ -132,3 +132,86 @@ search: false
     border-bottom-color: #2b7de9;
   }
 }
+
+.course-github-link {
+  margin: 0.5em 0 1.5em;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.95em;
+    color: #24292f;
+    background: #f6f8fa;
+    border: 1px solid #d0d7de;
+    padding: 0.45em 0.9em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      background: #eaeef1;
+      border-color: #afb8c1;
+    }
+  }
+}
+
+.course-slides {
+  margin-top: 2em;
+}
+
+.course-slide-block {
+  margin-bottom: 2.5em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h3 {
+    margin-bottom: 0.15em;
+  }
+
+  time {
+    font-size: 0.8em;
+    color: #999;
+  }
+
+  p {
+    color: #555;
+    margin: 0.5em 0 1em;
+  }
+}
+
+.course-slide-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 129%; // roughly A4/portrait slide aspect; adjust to taste
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5em;
+  overflow: hidden;
+  background: #fafafa;
+
+  iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+.course-slide-fallback {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-top: 0.6em;
+  font-size: 0.85em;
+  color: #2b7de9;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
