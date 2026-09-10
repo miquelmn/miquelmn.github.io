@@ -11,7 +11,13 @@ author_profile: true
 {% for course in courses %}
   {% assign items = course.items | sort: "date" | reverse %}
   <div class="teaching-course-block">
-    <h2 class="teaching-course-title">{{ course.name }}</h2>
+  <h2 class="teaching-course-title">
+    {% if items.first.course_url %}
+      <a href="{{ items.first.course_url }}">{{ course.name }}</a>
+    {% else %}
+      {{ course.name }}
+    {% endif %}
+  </h2>
     <p class="teaching-course-sub">{{ items.first.semester }}</p>
 
     <div class="teaching-grid">
