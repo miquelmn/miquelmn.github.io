@@ -3,6 +3,7 @@ title: "Teaching"
 permalink: /teaching/
 layout: single
 author_profile: true
+classes: wide
 ---
 
 <div class="teaching-wrap">
