@@ -24,15 +24,16 @@ Our research group meet regularly to read and discuss a recent paper. Read the p
 <div class="paper-club">
 
 {% if upcoming.size > 0 %}
-  <h2 class="paper-club-heading">Next paper</h2>
-  {% include paper-club-card.html session=upcoming.first featured=true %}
-
-  {% if upcoming.size > 1 %}
   <h2 class="paper-club-heading">Upcoming</h2>
-  {% for s in upcoming offset:1 %}
-    {% include paper-club-card.html session=s %}
+  <div class="teaching-grid">
+  {% for s in upcoming %}
+    {% if forloop.first %}
+      {% include paper-club-card.html session=s featured=true %}
+    {% else %}
+      {% include paper-club-card.html session=s %}
+    {% endif %}
   {% endfor %}
-  {% endif %}
+  </div>
 {% else %}
   <p class="paper-club-empty">No upcoming session scheduled yet. Stay tuned!</p>
 {% endif %}
@@ -40,9 +41,11 @@ Our research group meet regularly to read and discuss a recent paper. Read the p
 {% if past.size > 0 %}
   <h2 class="paper-club-heading">Past sessions</h2>
   {% assign past = past | reverse %}
+  <div class="teaching-grid">
   {% for s in past %}
     {% include paper-club-card.html session=s %}
   {% endfor %}
+  </div>
 {% endif %}
 
 </div>

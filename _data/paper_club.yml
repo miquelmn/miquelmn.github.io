@@ -19,7 +19,7 @@
   time: "12:00–12:30"
   place: "TBD"
   title: "High-Resolution Image Synthesis with Latent Diffusion Models"
-  authors: "Author A, Author B"
+  authors: "Robin Rombach; Andreas Blattmann; Dominik Lorenz; Patrick Esser; Björn Ommer"
   venue: "CVPR 2022"
   url: "https://ieeexplore.ieee.org/document/9878449"
   pdf: "https://arxiv.org/pdf/2112.10752"
