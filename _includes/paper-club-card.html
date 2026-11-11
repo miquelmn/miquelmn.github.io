@@ -23,7 +23,6 @@
     {% if s.authors or s.venue %}
       <p class="paper-club-meta">{{ s.authors }}{% if s.authors and s.venue %} · {% endif %}{% if s.venue %}<em>{{ s.venue }}</em>{% endif %}</p>
     {% endif %}
-    {% if s.notes %}<p>{{ s.notes }}</p>{% endif %}
     {% if s.presenter or s.place %}
     <ul class="paper-club-details">
       {% if s.presenter %}<li><i class="fas fa-user"></i> {{ s.presenter }}</li>{% endif %}

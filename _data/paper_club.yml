@@ -23,5 +23,4 @@
   venue: "CVPR 2022"
   url: "https://ieeexplore.ieee.org/document/9878449"
   pdf: "https://arxiv.org/pdf/2112.10752"
-  presenter: "Dr. Francesc Xavier Gaya Morey"
-  notes: "Introduces a generative framework that performs the computationally intensive diffusion process within a compressed lower-dimensional latent space via an autoencoder, drastically reducing training and inference overhead while generating high-fidelity images."
+  presenter: "Francesc Xavier Gaya Morey"
