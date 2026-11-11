@@ -8,6 +8,8 @@ main:
     url: /posts/
   - title: "Teaching"
     url: /teaching/
+  - title: "Paper Club"
+    url: /paper-club/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

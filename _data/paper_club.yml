@@ -1,0 +1,27 @@
+# Paper reading club sessions.
+# Add one entry per session. The page sorts by date: the earliest session on or
+# after the build date is shown as "Next paper", the rest as upcoming / past.
+#
+# Fields (only date and title are required):
+#   date:      YYYY-MM-DD
+#   time:      free text, e.g. "16:00–17:00"
+#   place:     free text, e.g. "Room A-101" or "Online"
+#   title:     paper title
+#   authors:   free text
+#   venue:     e.g. "NeurIPS 2025"
+#   url:       link to the paper page (arXiv, DOI, ...)
+#   pdf:       direct link to the PDF (external or /assets/pdf/...)
+#   code:      link to the code repository
+#   presenter: who leads the discussion
+#   notes:     short description / why we read it
+
+- date: 2026-11-16
+  time: "12:00–12:30"
+  place: "TBD"
+  title: "High-Resolution Image Synthesis with Latent Diffusion Models"
+  authors: "Author A, Author B"
+  venue: "CVPR 2022"
+  url: "https://ieeexplore.ieee.org/document/9878449"
+  pdf: "https://arxiv.org/pdf/2112.10752"
+  presenter: "Dr. Francesc Xavier Gaya Morey"
+  notes: "Introduces a generative framework that performs the computationally intensive diffusion process within a compressed lower-dimensional latent space via an autoencoder, drastically reducing training and inference overhead while generating high-fidelity images."

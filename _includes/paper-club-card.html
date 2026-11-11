@@ -1,0 +1,28 @@
+{% assign s = include.session %}
+<article class="paper-club-card{% if include.featured %} paper-club-card--featured{% endif %}">
+  <div class="paper-club-date">
+    <span class="paper-club-day">{{ s.date | date: "%-d" }}</span>
+    <span class="paper-club-month">{{ s.date | date: "%b %Y" }}</span>
+  </div>
+  <div class="paper-club-body">
+    <h3>
+      {% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}
+    </h3>
+    {% if s.authors or s.venue %}
+      <p class="paper-club-meta">{{ s.authors }}{% if s.authors and s.venue %} · {% endif %}{% if s.venue %}<em>{{ s.venue }}</em>{% endif %}</p>
+    {% endif %}
+    {% if s.notes %}<p class="paper-club-notes">{{ s.notes }}</p>{% endif %}
+    <ul class="paper-club-details">
+      {% if s.time %}<li><i class="far fa-clock"></i> {{ s.time }}</li>{% endif %}
+      {% if s.place %}<li><i class="fas fa-map-marker-alt"></i> {{ s.place }}</li>{% endif %}
+      {% if s.presenter %}<li><i class="fas fa-user"></i> {{ s.presenter }}</li>{% endif %}
+    </ul>
+    {% if s.pdf or s.url or s.code %}
+    <p class="paper-club-links">
+      {% if s.pdf %}<a href="{{ s.pdf }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+      {% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener"><i class="fas fa-link"></i> Paper</a>{% endif %}
+      {% if s.code %}<a href="{{ s.code }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</article>
